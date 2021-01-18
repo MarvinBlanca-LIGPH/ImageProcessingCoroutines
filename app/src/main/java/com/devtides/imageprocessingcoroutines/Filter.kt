@@ -1,7 +1,6 @@
 package com.devtides.imageprocessingcoroutines
 
-import android.graphics.Bitmap
-import android.graphics.Color
+import android.graphics.*
 
 object Filter {
 

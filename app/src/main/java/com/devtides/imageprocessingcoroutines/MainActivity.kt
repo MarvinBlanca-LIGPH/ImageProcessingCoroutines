@@ -1,7 +1,6 @@
 package com.devtides.imageprocessingcoroutines
 
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
+import android.graphics.*
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -27,6 +26,7 @@ class MainActivity : AppCompatActivity() {
 
             loadImage(bitmap)
 
+            imageView
             delay(5000L)
 
             val filterImageDeferred =
